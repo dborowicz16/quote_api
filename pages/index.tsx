@@ -37,7 +37,7 @@ export default function Home() {
     <>
       <div className="bg-black h-screen flex flex-col">
         <h1 className="text-white text-center self-center mt-auto text-5xl w-1/2 mb-5">{quote}</h1>
-        <h1 className="text-white self-center -translate-x-5 text-5xl">- {author}</h1>
+        <h1 className="text-white self-center text-5xl">{author}</h1>
         <button onClick={handleClick} className="bg-white text-blaxk font-bold py-2 px-4 rounded-full self-center my-auto">Click For A Random Quote</button>
       </div>
     </>
